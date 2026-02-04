@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-bmw-dark text-bmw-white font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-bmw-blue text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-bmw-gray-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-bmw-gray-600 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-bmw-gray-500;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-4 
+           bg-bmw-blue text-white font-semibold text-sm uppercase tracking-wider
+           transition-all duration-300 ease-premium
+           hover:bg-bmw-blue-light hover:shadow-glow
+           active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-8 py-4 
+           border-2 border-bmw-white text-white font-semibold text-sm uppercase tracking-wider
+           transition-all duration-300 ease-premium
+           hover:bg-white hover:text-bmw-dark
+           active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-white font-medium text-sm uppercase tracking-wider
+           transition-all duration-300 ease-premium
+           hover:text-bmw-blue;
+  }
+
+  .section-padding {
+    @apply px-6 md:px-12 lg:px-24 py-20 md:py-32;
+  }
+
+  .glass {
+    @apply bg-black/50 backdrop-blur-xl border border-white/10;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-bmw-gray-300 to-bmw-gray-500 bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 ease-premium
+           hover:scale-[1.02] hover:shadow-premium;
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
