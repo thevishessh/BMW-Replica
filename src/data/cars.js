@@ -1,5 +1,7 @@
 // src/data/cars.js
 
+import bmwX5Img from '../assets/image/bmw-x5.jpg';
+
 export const cars = [
     {
         id: "bmw-7-series",
@@ -65,11 +67,9 @@ export const cars = [
         tagline: "The Boss",
         category: "SUV",
         startingPrice: "$63,800",
-        image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1600&h=900&fit=crop&q=80",
+        image:  bmwX5Img ,
         gallery: [
-            "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1621135802920-133df287f89c?w=1200&h=800&fit=crop&q=80",
+            bmwX5Img 
         ],
         specs: {
             engine: "3.0L TwinPower Turbo Inline-6",
