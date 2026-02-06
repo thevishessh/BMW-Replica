@@ -12,8 +12,8 @@ export const cars = [
         image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1600&h=900&fit=crop&q=80",
         gallery: [
             "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1200&h=800&fit=crop&q=80",
+            "https://i.pinimg.com/1200x/20/cc/3b/20cc3b1b0ec4220d4d4e35e73de480c9.jpg",
+            "https://i.pinimg.com/1200x/8b/3a/8a/8b3a8a322a56997c3a933c6a3d9c0826.jpg",
         ],
         specs: {
             engine: "4.4L V8 TwinPower Turbo",
@@ -41,8 +41,8 @@ export const cars = [
         image: "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1600&h=900&fit=crop&q=80",
         gallery: [
             "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=1200&h=800&fit=crop&q=80",
+            "https://i.pinimg.com/1200x/9b/e5/73/9be573165be4e27513327f3b6374b178.jpg",
+            "https://i.pinimg.com/1200x/2e/ce/7b/2ece7b46c38d2ce0df1fbd6993b8bb64.jpg",
         ],
         specs: {
             engine: "3.0L M TwinPower Turbo Inline-6",
@@ -67,9 +67,12 @@ export const cars = [
         tagline: "The Boss",
         category: "SUV",
         startingPrice: "$63,800",
-        image:  bmwX5Img ,
+        image:  "https://i.pinimg.com/1200x/2d/2d/dc/2d2ddc17184c642c9c4ad80a661341f1.jpg",
         gallery: [
-            bmwX5Img 
+            "https://i.pinimg.com/1200x/b4/09/b9/b409b97f6ac6581d610bab31af05b1ca.jpg" ,
+            "https://i.pinimg.com/1200x/14/6b/2f/146b2f73ba56c965fa19295309b78c73.jpg",
+            "https://images.unsplash.com/photo-1653227158553-ddaa680cdd65?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
         ],
         specs: {
             engine: "3.0L TwinPower Turbo Inline-6",
@@ -94,11 +97,11 @@ export const cars = [
         tagline: "Born Electric",
         category: "Electric",
         startingPrice: "$87,100",
-        image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&h=900&fit=crop&q=80",
+        image: "https://i.pinimg.com/1200x/52/8a/a2/528aa2e6d746c8e5d9c58781d26aa54d.jpg",
         gallery: [
-            "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1542362567-b07e54358753?w=1200&h=800&fit=crop&q=80",
-            "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1200&h=800&fit=crop&q=80",
+            "https://i.pinimg.com/1200x/43/58/ad/4358add715b8365a64b32b6503a0233f.jpg",
+            "https://i.pinimg.com/1200x/76/c7/b6/76c7b6ae3f6f00566935d0713bfe6148.jpg",
+            "https://i.pinimg.com/1200x/c5/c7/59/c5c75909955a126a36ad0f169d543715.jpg",
         ],
         specs: {
             engine: "Dual Electric Motors",
@@ -145,7 +148,7 @@ export const heroSlides = [
         title: "THE iX",
         subtitle: "Born Electric",
         description: "The future is electric.",
-        image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&h=900&fit=crop&q=80",
+        image: "https://i.pinimg.com/1200x/52/8a/a2/528aa2e6d746c8e5d9c58781d26aa54d.jpg",
         cta: "Experience",
         link: "/models/bmw-ix",
     },
